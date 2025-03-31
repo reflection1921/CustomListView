@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35707.178 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomListView", "CustomListView.csproj", "{0CC2EDC7-BFAA-4452-AC78-6672BCC6519C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomListView", ".\CustomListView\CustomListView.csproj", "{0CC2EDC7-BFAA-4452-AC78-6672BCC6519C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomListViewExample", "..\CustomListViewExample\CustomListViewExample.csproj", "{A106624C-DFD8-4F6C-9C74-65517F86B47F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomListViewExample", ".\CustomListViewExample\CustomListViewExample.csproj", "{A106624C-DFD8-4F6C-9C74-65517F86B47F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{434714BE-AE90-40EA-818B-C3EDE6E76EE3}"
 	ProjectSection(SolutionItems) = preProject
