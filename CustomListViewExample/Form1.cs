@@ -15,6 +15,25 @@ namespace CustomListViewExample
         public Form1()
         {
             InitializeComponent();
+            AddItems();
+        }
+
+        private void AddItems()
+        {
+            var item = new ListViewItem("1");
+            item.SubItems.Add("生きていたんだよな");
+            item.SubItems.Add("あいみょん");
+            customListView1.Items.Add(item);
+
+            item = new ListViewItem("2");
+            item.SubItems.Add("ノット・オーケー");
+            item.SubItems.Add("あいみょん");
+            customListView1.Items.Add(item);
+
+            item = new ListViewItem("3");
+            item.SubItems.Add("初恋が泣いている");
+            item.SubItems.Add("あいみょん");
+            customListView1.Items.Add(item);
         }
 
         private void btnChangeBlankArea_Click(object sender, EventArgs e)

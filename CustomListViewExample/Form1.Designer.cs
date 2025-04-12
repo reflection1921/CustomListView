@@ -67,6 +67,8 @@
             this.columnHeader1,
             this.columnHeader2,
             this.columnHeader3});
+            this.customListView1.FullRowSelect = true;
+            this.customListView1.GridLines = true;
             this.customListView1.HideSelection = false;
             this.customListView1.Location = new System.Drawing.Point(12, 12);
             this.customListView1.Name = "customListView1";
@@ -82,10 +84,12 @@
             // columnHeader2
             // 
             this.columnHeader2.Text = "Title";
+            this.columnHeader2.Width = 200;
             // 
             // columnHeader3
             // 
             this.columnHeader3.Text = "Artist";
+            this.columnHeader3.Width = 140;
             // 
             // Form1
             // 
