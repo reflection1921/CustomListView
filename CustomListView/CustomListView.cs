@@ -95,8 +95,7 @@ namespace CustomListView
         {
             DoubleBuffered = true;
             this.SetStyle(ControlStyles.OptimizedDoubleBuffer |
-                          ControlStyles.AllPaintingInWmPaint |
-                          ControlStyles.UserPaint, true);
+                          ControlStyles.AllPaintingInWmPaint, true);
             this.UpdateStyles();
         }
 
